@@ -1,0 +1,125 @@
+# Compiled Java classes
+target/
+*.class
+
+# Maven specific
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+*.prefs
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+.nb-gradle/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Deeplearning4j specific
+# Запазени модели
+*.zip
+*.bin
+*.model
+models/
+
+# Данни за тренировка
+data/
+mnist/
+datasets/
+
+# Логове
+logs/
+*.log
+
+# ND4J временни файлове
+nd4j-native/
+*.hprof
+
+# Deeplearning4j UI
+dl4j-ui-*/
+
+# Временни файлове
+temp/
+tmp/
+*.tmp
+*.temp
+
+# Докер
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Конфигурационни файлове с чувствителна информация
+*.properties
+!logback.xml
+application.properties
+application-dev.properties
+application-prod.properties
+
+# Докладване и документация
+/reports/
+/test-output/
+*.rdb
+*.lock
+
+# Maven wrapper
+.mvn/
+mvnw
+mvnw.cmd
+
+# Backup files
+*.bak
+*.orig
+*.old
+
+# Проектни файлове
+*.project
+*.classpath
+.factorypath
+
+# Gradle (ако някога преминете)
+.gradle/
+build/
+
+# Директория за кеш на Maven зависимост
+.m2/
