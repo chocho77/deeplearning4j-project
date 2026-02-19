@@ -12,3 +12,20 @@
 git clone <repository-url>
 cd deeplearning4j-project
 mvn clean install
+
+## Execute commands
+```bash
+# Compile
+mvn compile
+
+#Tests
+mvn test
+
+# Package
+mvn package
+
+# Start on MNIST classifiler
+mvn exec:java -Dexec.mainClass="com.example.MNISTClassifiler"
+
+# Start on ND4J example
+mvn exec:java -Dexec.mainClass="com.example.ND4JExample"
